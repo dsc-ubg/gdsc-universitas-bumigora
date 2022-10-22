@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <style>
+      .container-card {
+        width: 30%;
+        min-height: 14rem;
+        overflow: hidden;
+        border-radius: 16px;
+      }
+
+      @media only screen and (max-width: 720px) {
+        .container-card {
+          width: 100%;
+        }
+      }
+
+      .github-pinner {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+      }
+    </style>
+</head>
+<body class="font-poppins">
+
+    <!-- bg -->
+    <img src="./dist/image/beams.jpg" alt="" class="absolute top-0 left-0 w-full"/>
+    <!-- bg -->
+  
+    <header class="sticky top-0 left-0 z-50 text-gray-600 bg-[#DFE3FB]">
+      <nav class="flex justify-between items-center p-4 py-3 px-24 smx:px-4 w-full">
+
+        <!-- logo -->
+        <div class="w-12 h-12 rounded-full p-1 bg-slate-100 flex items-center border-2 border-blue-200 justify-center">
+          <img src="./dist/image/gdsc.png" class="" width="40px" alt="">
+        </div>
+        <!-- logo -->
+
+        <!-- menu -->
+        <div class="flex gap-16 smx:gap-7">
+          <a href="./index.html" class="font-semibold smx:text-sm transition-all duration-300 hover:opacity-70">Home</a>
+          <a href="./mading.html" class="font-semibold smx:text-sm transition-all duration-300 hover:opacity-70">Mading</a>
+        </div>
+        <!-- menu -->
+        
+      </nav>
+    </header>
+  
+    <main class="relative min-h-screen overflow-hidden px-28 py-10 smx:px-4 sm:py-5">
+      
+        <h2 class="text-3xl font-semibold text-gray-600 mb-10">✨MADING - GDSC UBG</h2>
+
+        <p>Tulis harapanmu dalam satu tahun kedepan, kita sama-sama berdoa semoga terealisasikan 😎</p>
+
+        <hr class="my-4 border-2 rounded-3xl">
+
+
+        <div id="container-card" class="flex flex-wrap gap-10">
+          
+        </div>
+
+        <!-- <script src="./dist/js/githubPinner.js"></script> -->
+    </main>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script type="module" src="./dist/js/script.js"></script>
+  </body>
+</html>

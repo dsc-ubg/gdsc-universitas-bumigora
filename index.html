@@ -5,43 +5,238 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dist/css/style.css">
+    
 </head>
-<body class="font-poppins">
-    <header class="sticky top-0 left-0 z-50">
-      <nav class="flex justify-between p-4 px-24 bg-[#E3CBFD] w-full">
+<body class="font-nunito text-gray-600 bg-primary">
+
+    <!-- bg -->
+    <img src="./dist/image/beams.jpg" alt="" class="absolute top-0 left-0 w-full"/>
+    <!-- bg -->
+  
+    <header class="sticky top-0 left-0 z-50 text-gray-600 bg-secondary">
+      <nav class="flex justify-between items-center p-4 py-3 px-24 smx:px-4 w-full">
 
         <!-- logo -->
-        <div></div>
+        <div class="w-12 h-12 rounded-full p-1 bg-slate-100 flex items-center border-2 border-blue-200 justify-center">
+          <img src="./dist/image/gdsc.png" class="" width="40px" alt="">
+        </div>
         <!-- logo -->
 
         <!-- menu -->
-        <div class="flex gap-16">
-          <a href="" class="font-semibold text-white transition-all duration-300 hover:opacity-70">Mading</a>
-          <a href="" class="font-semibold text-white transition-all duration-300 hover:opacity-70">Repository</a>
+        <div class="flex gap-16 smx:gap-7">
+          <a href="./index.html" class="font-semibold smx:text-sm transition-all duration-300 hover:opacity-70">Home</a>
+          <a href="./mading.html" class="font-semibold smx:text-sm transition-all duration-300 hover:opacity-70">Mading</a>
         </div>
         <!-- menu -->
         
       </nav>
     </header>
   
-    <main class="relative min-h-screen overflow-hidden px-28 py-10 sm:py-5">
+    <main class="relative min-h-screen overflow-hidden px-28 py-10 smx:px-4 sm:py-5">
       
-        <h2 class="text-3xl font-semibold text-gray-600 mb-10">✨MADING - GDSC UBG</h2>
+      <div class="flex justify-between mb-20">
 
-        <p>Tulis harapanmu dalam satu tahun kedepan, kita sama-sama berdoa semoga terealisasikan 😎</p>
+        <div class="mt-20 flex flex-col items-start w-[50%] smx:w-full mr-10 smx:mr-0">
+          <span class="text-3xl font-bold mb-5">
+            Hey Folks 😎
+          </span>
+          <span class="text-2xl font-semibold  mb-4">
+            Welcome to GDSC Universitas Bumigora, our vision to help students to learn about technology, and solve local problems with technology.
+          </span>
+          <span class="text-2xl font-semibold  mb-8">
+            So what you waiting for, come join with us.
+          </span>
 
-        <hr class="my-4 border-2 rounded-3xl">
+          <a href="" class="p-4 px-6 bg-secondary rounded-xl hover:bg-indigo-300 transition-all duration-300 hover:text-white text-gray-600 font-semibold">
+            Join Now
+          </a>
+        </div>
+        
+        <!-- rocket -->
+        <div class="-mt-20 -mr-10 smx:hidden">
+          <img src="./dist/image/rocket-r.png" class="w-[32rem] transform " alt="">
+        </div>
+        <!-- rocket -->
+  
+      </div>
+      
+
+      <!-- our programs -->
+      <div class="mb-32">
+        <span class="text-4xl flex justify-center font-bold w-full mb-14">
+          Our Programs
+        </span>
 
 
-        <div id="container-card" class="flex flex-wrap gap-10">
+        <div class="flex justify-between overflow-x-auto">
+          
+          <div class="w-[23%] smx:w-full bg-white p-4 shadow shadow-secondary rounded-2xl bg-opacity-40">
+            <div class="w-full h-44 overflow-hidden rounded-lg">
+              <img src="./dist/image/show case.png" alt="">
+            </div>
+
+            <span class="text-2xl font-semibold flex justify-center mt-5">Show Case</span>
+          </div>
+          
+          <div class="w-[23%] smx:w-full bg-white p-4 shadow shadow-secondary rounded-2xl bg-opacity-40">
+            <div class="w-full h-44 overflow-hidden rounded-lg">
+              <img src="./dist/image/study jam.png" alt="">
+            </div>
+
+            <span class="text-2xl font-semibold flex justify-center mt-5">Study Jam</span>
+          </div>
+          
+          <div class="w-[23%] smx:w-full bg-white p-4 shadow shadow-secondary rounded-2xl bg-opacity-40">
+            <div class="w-full h-44 overflow-hidden rounded-lg">
+              <img src="./dist/image/tech talk.png" alt="">
+            </div>
+
+            <span class="text-2xl font-semibold flex justify-center mt-5">Tech Talk</span>
+          </div>
+          
+          <div class="w-[23%] smx:w-full bg-white p-4 shadow shadow-secondary rounded-2xl bg-opacity-40">
+            <div class="w-full overflow-hidden rounded-lg">
+              <img src="./dist/image/workshop.png" alt="">
+            </div>
+
+            <span class="text-2xl font-semibold flex justify-center mt-5">Workshop</span>
+          </div>
           
         </div>
-      
+        
+      </div>
+      <!-- our programs -->
+
+      <!-- our team -->
+      <div class="mb-40">
+
+        <h2 class="text-4xl font-bold flex justify-center mb-14">Our Teams</h2>
+        
+        <!-- lead -->
+        <div class="flex flex-col items-center mb-14">
+          <div class="w-44 h-44 overflow-hidden rounded-full mb-7">
+            <img src="./dist/image/person/osi.jpg" class="w-full h-full object-cover" alt="">
+          </div>
+          <span class="italic font-semibold text-xl mb-4">“Do the best with what you can do”</span>
+          <span class="font-semibold text-2xl mb-1">✨Sayidina Ahmadal Qososyi✨</span>
+          <span class="font-bold mb-4 text-indigo-400">#GDSC Lead</span>
+        </div>
+        <!-- lead -->
+
+        <!-- team -->
+        <div class="flex justify-center gap-2 gap-y-12 flex-wrap">
+
+          <div class="w-[24%] flex flex-col items-center">
+            <div class="w-44 h-44 overflow-hidden rounded-full mb-7">
+              <img src="./dist/image/person/dinda_syagita.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <span class="font-semibold text-lg mb-1">✨Dinda Syagita A.✨</span>
+            <span class="font-bold text-indigo-400">#Administrative Lead</span>
+            <a href="" class="underline text-sm text-indigo-800">View more on this field</a>
+          </div>
+
+          <div class="w-[24%] flex flex-col items-center">
+            <div class="w-44 h-44 overflow-hidden rounded-full mb-7">
+              <img src="./dist/image/person/lalu_wahyu_IpvHy9x.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <span class="font-semibold text-lg mb-1">✨lalu wahyu Saputra✨</span>
+            <span class="font-bold text-indigo-400">#Human Resource Lead</span>
+            <a href="" class="underline text-sm text-indigo-800">View more on this field</a>
+          </div>
+
+          <div class="w-[24%] flex flex-col items-center">
+            <div class="w-44 h-44 overflow-hidden rounded-full mb-7">
+              <img src="./dist/image/person/gilang_maulana.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <span class="font-semibold text-lg mb-1">✨Gilang Maulana R.✨</span>
+            <span class="font-bold text-indigo-400">#Community Development Lead</span>
+            <a href="" class="underline text-sm text-indigo-800">View more on this field</a>
+          </div>
+
+          <div class="w-[24%] flex flex-col items-center">
+            <div class="w-44 h-44 overflow-hidden rounded-full mb-7">
+              <img src="./dist/image/person/wardy_dev.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <span class="font-semibold text-lg mb-1">✨Hairul Wardi✨</span>
+            <span class="font-bold text-indigo-400">#Creative Design Lead</span>
+            <a href="" class="underline text-sm text-indigo-800">View more on this field</a>
+          </div>
+
+          <div class="w-[24%] flex flex-col items-center">
+            <div class="w-44 h-44 overflow-hidden rounded-full mb-7">
+              <img src="./dist/image/person/kusuma_ningrat.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <span class="font-semibold text-lg mb-1">✨Kusuma Ningrat✨</span>
+            <span class="font-bold text-indigo-400">#Asset Management Lead</span>
+            <a href="" class="underline text-sm text-indigo-800">View more on this field</a>
+          </div>
+
+          <div class="w-[24%] flex flex-col items-center">
+            <div class="w-44 h-44 overflow-hidden rounded-full mb-7">
+              <img src="./dist/image/person/bagus_eka.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <span class="font-semibold text-lg mb-1">✨Bagus Eka✨</span>
+            <span class="font-bold text-indigo-400">#Event Organizer Lead</span>
+            <a href="" class="underline text-sm text-indigo-800">View more on this field</a>
+          </div>
+
+          <div class="w-[24%] flex flex-col items-center">
+            <div class="w-44 h-44 overflow-hidden rounded-full mb-7">
+              <img src="./dist/image/person/nanda_anjani.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <span class="font-semibold text-lg mb-1">✨Nanda Anjani✨</span>
+            <span class="font-bold text-indigo-400">#Publication Lead</span>
+            <a href="" class="underline text-sm text-indigo-800">View more on this field</a>
+          </div>
+          
+        </div>
+        <!-- team -->
+
+      </div>
+      <!-- our team -->
+        
+      <!-- lets connect -->
+      <div class="px-32 flex justify-center">
+        <div class="rounded-2xl bg-secondary bg-opacity-40 p-7 flex flex-col items-center">
+          <h2 class="font-bold text-3xl mb-5">Get in touch - Lets Connect</h2>
+
+          <span class="mb-2">To more closer with us, we've several platform you can connect with us.</span>
+
+          <span>Email : lombokdsc.indonesia@gmail.com</span>
+          
+          <div class="flex items-center mt-7 gap-6">
+            <!-- linkedln, github, email, ig, yt -->
+            <a href="" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="34" viewBox="0 0 36.333 36.333"><path d="M18.167,0A18.167,18.167,0,1,0,36.333,18.167,18.167,18.167,0,0,0,18.167,0ZM15.139,24.222H12.111V15.139h3.028ZM13.625,13.79a1.679,1.679,0,1,1,1.665-1.679A1.672,1.672,0,0,1,13.625,13.79ZM25.736,24.222H22.711V19.891c0-2.848-3.031-2.607-3.031,0v4.331H16.653V15.139h3.028v1.655c1.32-2.446,6.056-2.628,6.056,2.344Z" class="fill-indigo-500 hover:opacity-70 cursor-pointer transition-all duration-300"/></svg>
+            </a>
+
+            <a href="" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="34" viewBox="0 0 36 36"><path d="M14.358,38a1.606,1.606,0,0,0,.946-1.474V32.19a4.241,4.241,0,0,1,.032-.49l-.032.008H12.487a2.8,2.8,0,0,1-2.661-1.445c-.548-1.044-.783-2.81-2.191-3.774-.235-.161-.078-.4.391-.4a4.291,4.291,0,0,1,2.113,1.606A3.293,3.293,0,0,0,12.8,29.3c1.946,0,2.99-.1,3.617-.446a3.727,3.727,0,0,1,2.8-1.963v-.02c-4.436-.146-7.27-1.659-8.589-3.995a46.066,46.066,0,0,0-6.791.568q-.068-.394-.118-.792a46.762,46.762,0,0,1,6.531-.573,6.67,6.67,0,0,1-.228-.682,49.3,49.3,0,0,0-6.407.078c-.016-.267-.037-.532-.04-.8a49.981,49.981,0,0,1,6.275-.089,8.094,8.094,0,0,1-.1-1.239,7.031,7.031,0,0,1,1.33-4.015c-.391-1.365-.939-4.256.157-5.3a6.432,6.432,0,0,1,4.3,1.686A11.343,11.343,0,0,1,20,10.832a10.7,10.7,0,0,1,4.383.883,6.432,6.432,0,0,1,4.3-1.686c1.174,1.124.548,4.015.157,5.3A6.269,6.269,0,0,1,30.1,19.343a8.212,8.212,0,0,1-.086,1.131,50.393,50.393,0,0,1,6.421.082c0,.271-.026.535-.04.8a49.425,49.425,0,0,0-6.542-.071,6.764,6.764,0,0,1-.254.787,47.441,47.441,0,0,1,6.69.553q-.05.4-.118.792a46.515,46.515,0,0,0-6.949-.548c-1.3,2.311-4.085,3.818-8.434,3.994v.025c2.035,0,3.913,3.131,3.913,5.3v4.336A1.606,1.606,0,0,0,25.642,38,18.458,18.458,0,0,0,38,20.467,18.259,18.259,0,0,0,20,2,18.259,18.259,0,0,0,2,20.467,18.458,18.458,0,0,0,14.358,38Z" transform="translate(-2 -2)" class="fill-indigo-500 hover:opacity-70 cursor-pointer transition-all duration-300"/></svg>
+            </a>
+
+            <a href="" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="31" viewBox="0 0 41.333 31"><path d="M20.667,19.728.026,3H41.307L20.667,19.728Zm0,4.433L0,7.412V34H41.333V7.412Z" transform="translate(0 -3)" class="fill-indigo-500 hover:opacity-70 cursor-pointer transition-all duration-300"/></svg>
+            </a>
+
+            <a href="" target="_blank">
+              <svg class="fill-indigo-500 hover:opacity-70 cursor-pointer transition-all duration-300" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg>
+            </a>
+
+            <a href="" target="_blank">
+              <svg class="fill-indigo-500 hover:opacity-70 cursor-pointer transition-all duration-300" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"/></svg>
+            </a>
+
+          </div>
+          
+        </div>
+      </div>
+      <!-- lets connect -->
+
+
     </main>
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
-    <script type="module" src="./dist/js/script.js"></script>
   </body>
 </html>
